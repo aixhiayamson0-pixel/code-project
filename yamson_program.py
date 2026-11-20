@@ -92,7 +92,7 @@ while True:
 
             print("Time used:", elapsed, "seconds")
             print("Explanation:", question[2])
-            print("------------------------------------------")
+            print("*******************************************")
 
         print("\n========== FINAL BOSS RESULT ==========")
         print("Your score:", boss_score, "/ 100")
@@ -113,16 +113,16 @@ while True:
         else:
             print("RANK: BEGINNER CODER")
             print("Do not give up. Review the explanations and try again.")
-        print("\n+==========================================+")
+        print("\n+*******************************************+")
         print("|       THANK YOU FOR USING THE PROGRAM!    |")
-        print("+==========================================+")
+        print("+*******************************************+")
         print("Lessons completed: 7 / 7")
         print("Keep learning and practicing Python!")
         break
 
 
     print("                  MAIN MENU")
-    print("  ------------------------------------------")
+    print("  ******************************************* ")
     print("  [1]  Introduction to Programming")
     print("  [2]  Python Basic Syntax")
     print("  [3]  Arithmetic Operators and Expressions")
@@ -132,13 +132,13 @@ while True:
     print("  [7]  Introduction to Iteration and Loops")
     print("  [8]  Progress Tracker")
     print("  [0]  Exit Program")
-    print("  ------------------------------------------")
+    print("  ******************************************* ")
     print("  Lessons Completed: " + str(len(completed)) + " / 7")
     choice = input("Enter your choice: ").strip()
 
     # LESSON 1
     if choice == "1":
-        print("\n========== LESSON 1: INTRODUCTION TO PROGRAMMING ==========")
+        print("\n********** LESSON 1: INTRODUCTION TO PROGRAMMING **********")
         print("""
 Programming is the process of giving instructions to a computer so it can perform a certain task.
 We can compare programming to preparing our school things. First, we get our bag, then our books,
@@ -210,7 +210,7 @@ and indentation first.
 
     # LESSON 3
     elif choice == "3":
-        print("\n========== LESSON 3: ARITHMETIC OPERATORS ==========")
+        print("\n********** LESSON 3: ARITHMETIC OPERATORS **********")
         print("""
 Arithmetic operators are symbols used to perform mathematical operations in Python.
 They can be used when calculating allowance, expenses, savings, and other numbers.
@@ -335,7 +335,7 @@ it at home. Python uses if, elif, and else to follow decisions like these.
 
     # LESSON 6
     elif choice == "6":
-        print("\n========== LESSON 6: LOGICAL OPERATORS ==========")
+        print("\n********** LESSON 6: LOGICAL OPERATORS **********")
         print("""\nLogical operators are used to combine or change conditions in a Python program.
 They are helpful when a decision depends on more than one condition.
 THREE MAIN LOGICAL OPERATORS:
@@ -373,7 +373,7 @@ NOT reverses a condition. Try saying the conditions out loud to see what the pro
 
     # LESSON 7
     elif choice == "7":
-        print("\n========== LESSON 7: ITERATION AND LOOPS ==========")
+        print("\n********** LESSON 7: ITERATION AND LOOPS **********")
         print("""
 Iteration means repeating a set of instructions until a certain task is completed.
 Loops help us avoid writing the same instruction many times.
@@ -403,7 +403,7 @@ can eventually stop.
 
     # PROGRESS TRACKER
     elif choice == "8":
-        print("\n========== PROGRESS TRACKER ==========")
+        print("\n********** PROGRESS TRACKER **********")
         lesson_names = [
             "Introduction to Programming",
             "Python Basic Syntax",
@@ -427,9 +427,9 @@ can eventually stop.
 
     # EXIT
     elif choice == "0":
-        print("\n+==========================================+")
+        print("\n+*******************************************+")
         print("|       THANK YOU FOR USING THE PROGRAM!    |")
-        print("+==========================================+")
+        print("+*******************************************+")
         print("Lessons completed:", len(completed), "/ 7")
         print("Keep learning and practicing Python!")
         break
